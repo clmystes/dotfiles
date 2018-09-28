@@ -23,18 +23,6 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'rhysd/clever-f.vim'
 Plugin 'majutsushi/tagbar'
-Plugin 'rakr/vim-one'
-Plugin 'posva/vim-vue'
-
-
-" Follow the installation guide to compile language server. It's good
-" https://github.com/Valloric/YouCompleteMe#mac-os-x
-Plugin 'Valloric/YouCompleteMe'
-
-
-" https://github.com/w0rp/ale
-Plugin 'w0rp/ale'
-
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 " ============ Vundle ============
