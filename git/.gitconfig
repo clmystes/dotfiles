@@ -2,7 +2,7 @@
 # https://github.com/nicksp/dotfiles/blob/master/git/gitconfig
 
 [user]
-        name = Clmystes
+        name = li
         email = clmystes@gmail.com
 
 [core]

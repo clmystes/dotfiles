@@ -299,12 +299,6 @@ map <c-l> <c-w>l<c-w>
 " multiple paste
 xnoremap p pgvy
 
-" Faster viewport scrolling (3 lines at a time)
-nnoremap <C-e> 3<C-e>
-nnoremap <C-y> 3<C-y>
-vnoremap <C-e> 3<C-e>
-vnoremap <C-y> 3<C-y>
-
 " 10j 10k
 nnoremap <C-j> 10j
 nnoremap <C-k> 10k

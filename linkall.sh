@@ -13,7 +13,7 @@ ln -sf $work_path"/zsh/oh-my-zsh/themes/refined-lambda.zsh-theme" ~/.oh-my-zsh/t
 
 # vim
 ln -sf $work_path"/vim/.vimrc" ~/.vimrc
-ln -sf $work_path"./vim/.vimrc" ~/.ideavimrc
+ln -sf $work_path"/vim/.vimrc" ~/.ideavimrc
 
 # git
 ln -sf $work_path"/git/.gitconfig" ~/.gitconfig
