@@ -1,8 +1,8 @@
 // 将设置放入此文件中以覆盖默认设置
 {
-    "code-runner.executorMap": {
-        "python": "$pythonPath"
-    },
+    "editor.fontSize": 14,
+    "editor.lineHeight": 26,
+    "workbench.colorTheme": "One Dark Pro",
     "eslint.validate": [
         "javascript",
         "javascriptreact",
@@ -13,24 +13,17 @@
     ],
     "eslint.autoFixOnSave": true,
     "editor.formatOnPaste": true,
-    "editor.lineHeight": 24,
-    "[python]": {
-        "editor.tabSize": 4
+    "editor.tabSize": 4,
+    "[javascript]": {
+        "editor.tabSize": 2
     },
-    "[java]": {
-        "editor.tabSize": 4
+    "[json]": {
+        "editor.tabSize": 2
     },
-    "editor.tabSize": 2,
     "files.autoSave": "onFocusChange",
     "editor.renderControlCharacters": true,
     "files.trimTrailingWhitespace": true,
     "eslint.packageManager": "yarn",
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "Material Theme Palenight",
-    "workbench.iconTheme": "vscode-icons",
-    "editor.minimap.enabled": false,
-    "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
-    "window.zoomLevel": 1,
     // vim config
     "vim.easymotion": true,
     "vim.incsearch": true,
@@ -59,9 +52,7 @@
             ]
         }
     ],
-    "vim.leader": "<space>",
-    // "vim.handleKeys": {
-    //     "<C-a>": false,
-    //     "<C-f>": false
-    // }
+    "workbench.iconTheme": "vscode-icons",
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "newUntitledFile"
 }
