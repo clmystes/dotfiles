@@ -2,9 +2,6 @@
 
 work_path=$(pwd)
 
-# bash
-ln -sf $work_path"/bash/.bashrc" ~/.bashrc
-
 # zsh
 ln -sf $work_path"/zsh/.zshrc" ~/.zshrc
 

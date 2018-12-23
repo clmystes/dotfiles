@@ -1,58 +1,36 @@
 // 将设置放入此文件中以覆盖默认设置
 {
-    "editor.fontSize": 14,
-    "editor.lineHeight": 26,
-    "workbench.colorTheme": "One Dark Pro",
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        {
-            "language": "vue",
-            "autoFix": true
-        }
-    ],
-    "eslint.autoFixOnSave": true,
-    "editor.formatOnPaste": true,
-    "editor.tabSize": 4,
-    "[javascript]": {
-        "editor.tabSize": 2
+  "editor.fontSize": 14,
+  "editor.lineHeight": 26,
+  "workbench.colorTheme": "Material Theme Palenight",
+  "workbench.iconTheme": "eq-material-theme-icons-palenight",
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 4,
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.tabSize": 2
+  },
+  "files.autoSave": "onFocusChange",
+  "editor.renderControlCharacters": true,
+  "files.trimTrailingWhitespace": true,
+  // vim config
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<C-j>"],
+      "after": ["1", "0", "j"]
     },
-    "[json]": {
-        "editor.tabSize": 2
-    },
-    "files.autoSave": "onFocusChange",
-    "editor.renderControlCharacters": true,
-    "files.trimTrailingWhitespace": true,
-    "eslint.packageManager": "yarn",
-    // vim config
-    "vim.easymotion": true,
-    "vim.incsearch": true,
-    "vim.useSystemClipboard": true,
-    "vim.useCtrlKeys": true,
-    "vim.hlsearch": true,
-    "vim.normalModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<C-j>"
-            ],
-            "after": [
-                "1",
-                "0",
-                "j"
-            ]
-        },
-        {
-            "before": [
-                "<C-k>"
-            ],
-            "after": [
-                "1",
-                "0",
-                "k"
-            ]
-        }
-    ],
-    "workbench.iconTheme": "vscode-icons",
-    "editor.minimap.enabled": false,
-    "workbench.startupEditor": "newUntitledFile"
+    {
+      "before": ["<C-k>"],
+      "after": ["1", "0", "k"]
+    }
+  ],
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true
 }
